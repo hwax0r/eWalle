@@ -1,3 +1,3 @@
 # eWalle
 
-![Screencast light-mode](./no-dark-appearance)
+![Screencast light-mode](./no-dark-appearance.mov)
