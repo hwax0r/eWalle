@@ -34,6 +34,7 @@
 		CD4166DC287211A700380C88 /* SendMoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4166DB287211A700380C88 /* SendMoneyViewModel.swift */; };
 		CD4166DE28721BE800380C88 /* AccountCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4166DD28721BE800380C88 /* AccountCardViewModel.swift */; };
 		CD4166E028721BF300380C88 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4166DF28721BF300380C88 /* BalanceViewModel.swift */; };
+		CD909C7228722C8000F087A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD909C7128722C8000F087A2 /* README.md */; };
 		CD9C462C286EEC5F00266E63 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD9C462B286EEC5F00266E63 /* Ubuntu-Medium.ttf */; };
 		CD9C462E286EEECA00266E63 /* LoginOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C462D286EEECA00266E63 /* LoginOptionsView.swift */; };
 		CD9C4630286EF5DA00266E63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C462F286EF5DA00266E63 /* LoginViewController.swift */; };
@@ -50,6 +51,8 @@
 		CD9C46462870C87600266E63 /* AddNewRecieverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C46452870C87600266E63 /* AddNewRecieverCell.swift */; };
 		CD9C46482870DCB500266E63 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C46472870DCB500266E63 /* ServicesView.swift */; };
 		CD9C464B2870DF3E00266E63 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C464A2870DF3E00266E63 /* ServiceView.swift */; };
+		CDB3F9442874E74D00F5904D /* SupportsAppearanceChangeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3F9432874E74D00F5904D /* SupportsAppearanceChangeProtocol.swift */; };
+		CDB3F94628750BCC00F5904D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CDB3F94528750BCC00F5904D /* .gitignore */; };
 		CDBE451B2869FAAE008DCF15 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE451A2869FAAE008DCF15 /* RectangleView.swift */; };
 		CDBE451E286A134B008DCF15 /* GroupFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE451D286A134B008DCF15 /* GroupFourView.swift */; };
 		CDBE4520286A5F68008DCF15 /* GroupFiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE451F286A5F68008DCF15 /* GroupFiveView.swift */; };
@@ -109,6 +112,7 @@
 		CD4166DB287211A700380C88 /* SendMoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyViewModel.swift; sourceTree = "<group>"; };
 		CD4166DD28721BE800380C88 /* AccountCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardViewModel.swift; sourceTree = "<group>"; };
 		CD4166DF28721BF300380C88 /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
+		CD909C7128722C8000F087A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CD9C462B286EEC5F00266E63 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		CD9C462D286EEECA00266E63 /* LoginOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsView.swift; sourceTree = "<group>"; };
 		CD9C462F286EF5DA00266E63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 		CD9C46452870C87600266E63 /* AddNewRecieverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecieverCell.swift; sourceTree = "<group>"; };
 		CD9C46472870DCB500266E63 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
 		CD9C464A2870DF3E00266E63 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		CDB3F9432874E74D00F5904D /* SupportsAppearanceChangeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportsAppearanceChangeProtocol.swift; sourceTree = "<group>"; };
+		CDB3F94528750BCC00F5904D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CDBE451A2869FAAE008DCF15 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 		CDBE451D286A134B008DCF15 /* GroupFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFourView.swift; sourceTree = "<group>"; };
 		CDBE451F286A5F68008DCF15 /* GroupFiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFiveView.swift; sourceTree = "<group>"; };
@@ -179,6 +185,8 @@
 		CD30D97C2865DE2100D04F59 = {
 			isa = PBXGroup;
 			children = (
+				CDB3F94528750BCC00F5904D /* .gitignore */,
+				CD909C7128722C8000F087A2 /* README.md */,
 				CD30D9872865DE2200D04F59 /* eWalle */,
 				CD30D9862865DE2200D04F59 /* Products */,
 			);
@@ -270,6 +278,7 @@
 			children = (
 				CDBE453C286D269C008DCF15 /* IHaveViewModel.swift */,
 				CD30D9B02865E6FC00D04F59 /* UIKit+Extension.swift */,
+				CDB3F9432874E74D00F5904D /* SupportsAppearanceChangeProtocol.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -563,6 +572,8 @@
 				CD9C463C286F881D00266E63 /* AvenirNext-Regular.ttf in Resources */,
 				CD30D9922865DE2600D04F59 /* Assets.xcassets in Resources */,
 				CD9C462C286EEC5F00266E63 /* Ubuntu-Medium.ttf in Resources */,
+				CD909C7228722C8000F087A2 /* README.md in Resources */,
+				CDB3F94628750BCC00F5904D /* .gitignore in Resources */,
 				CD4166B92871EDCA00380C88 /* AvenirNext-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,6 +640,7 @@
 				CD4166DE28721BE800380C88 /* AccountCardViewModel.swift in Sources */,
 				CDBE452C286CE6C6008DCF15 /* WeatherData.swift in Sources */,
 				CDBE452E286CE6DF008DCF15 /* MeaseurementSystem.swift in Sources */,
+				CDB3F9442874E74D00F5904D /* SupportsAppearanceChangeProtocol.swift in Sources */,
 				CDDCC78128688C8A00F81DC5 /* GroupTwoView.swift in Sources */,
 				CD9C4640286F9A8C00266E63 /* SendMoneyView.swift in Sources */,
 				CDBE4534286D17DE008DCF15 /* LocationServiceError.swift in Sources */,

@@ -31,8 +31,9 @@ final class HomeViewController: UIViewController, IHaveViewModel {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func loadView() {
-        super.loadView()
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
         DataProvider.shared.homeViewData { [weak self] (result: Swift.Result<HomeViewModel, Error>) in
             guard let self = self else { return }
             switch result {
@@ -49,10 +50,6 @@ final class HomeViewController: UIViewController, IHaveViewModel {
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: false)
         }
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .white
         
         configureView()
         configureActions()
@@ -68,6 +65,7 @@ extension HomeViewController {
             sendMoneyView,
             servicesView,
         ])
+        view.backgroundColor = .white
         
         let leadingOffset: Double = 25
         let trailingOffset: Double = 25
